@@ -40,7 +40,7 @@ export class AskToAI {
 
     const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey) {
-      console.error('API KEY missing');
+      console.error('KEY missing');
       return await interaction.editReply('Error:  API key is missing.');
         }
 
